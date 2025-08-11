@@ -1,0 +1,1 @@
+docker run --env VS_FILE_DIRECTORY=/videos --env VS_STREAMING_CHUNKSIZE=1048576 --volume ./videos:videos fastapi-video
